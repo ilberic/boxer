@@ -1,0 +1,39 @@
+@media  ( max-width: 1200px )
+    .offer
+        &__article
+            padding: 10px 5px
+            &-descr
+                font-size: 20px
+@media ( max-width: 992px )
+    .offer
+        &__wrapper
+            flex-direction: column
+        &__article
+            flex-direction: row-reverse
+            margin-bottom: 30px
+            img
+                margin-right: 20px
+            &-descr
+                font-size: 19px
+@media ( max-width: 767px )
+    .offer
+        &__title
+            font-size: 52px
+        &__article
+            padding: 5px 20px
+            &-descr
+                letter-spacing: 0
+                font-size: 14px
+            img
+                width: 150px
+@media ( max-width: 575px )
+    .offer
+        padding: 5px 0
+        &__title
+            font-size: 29px
+        &__wrapper
+            margin-top: 40px
+        &__article
+            flex-direction: column-reverse
+            &-descr
+                font-size: 13px
